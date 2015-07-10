@@ -3,6 +3,7 @@ package com.shifz.fontawesomeiconviewsample;
 import android.graphics.Color;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -10,7 +11,7 @@ import com.shifz.fontawesomeiconview.FAIcon;
 import com.shifz.fontawesomeiconview.FAIconView;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         FAIconView faIconView = (FAIconView) findViewById(R.id.fivIcon);
-        faIconView.setIcon(FAIcon.FA_HEART);
+        faIconView.setIcon(FAIcon.FA_ADJUST);
         faIconView.setIconColor(Color.RED);
         faIconView.setIconSize(250f);
 
