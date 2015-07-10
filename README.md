@@ -9,7 +9,7 @@ just add the below dependency in your application module's build.gradle file
 	compile 'com.shifz:font-awesome-icon-view:0.0.1'
 ```
 
-### Usages
+### Usage
 
 XML
 
