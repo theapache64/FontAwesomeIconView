@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FontAwesomeIconViewSample.iml" filepath="$PROJECT_DIR$/FontAwesomeIconViewSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/font-awesome-icon-view/font-awesome-icon-view.iml" filepath="$PROJECT_DIR$/font-awesome-icon-view/font-awesome-icon-view.iml" />
     </modules>
   </component>
 </project>
