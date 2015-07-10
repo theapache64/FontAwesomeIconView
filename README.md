@@ -1,6 +1,13 @@
 # FontAwesomeIconView
 FontAwesomeIconView is an Android widget that can be used to show FontAwesomeIcons in your Android application.
 
+### How to use ? ### 
+just add the below dependency in your application module's build.gradle file
+
+```groovy
+	compile 'com.shifz:font-awesome-icon-view:0.0.1'
+```
+
 ### Usages ###
 
 XML
@@ -34,5 +41,4 @@ Java
 
 
 ### Coming soon ###
-* jCenter support
 * Maven Center support
