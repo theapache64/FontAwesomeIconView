@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="FAIconView">
-        <attr name="iconName" format="reference|string"/>
-        <attr name="iconColor" format="reference|color"/>
-        <attr name="iconSize" format="dimension"/>
-    </declare-styleable>
-</resources>
