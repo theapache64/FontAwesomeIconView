@@ -1,6 +1,6 @@
 # FontAwesomeIconView
 
-FontAwesomeIconView is an Android widget that can be used to show FontAwesomeIcons in your Android application. (based on Font Awesome v4.3.0)
+FontAwesomeIconView is an Android widget that can be used to show FontAwesomeIcons in your Android application. (based on Font Awesome **v4.3.0**).
 
 ### How to use?
 
@@ -67,6 +67,9 @@ The above xml can produce the below output
 
 ![Sample screenshot](https://github.com/shifarshifz/FontAwesomeIconView/blob/master/sample.png?raw=true)
 
+
+**NOTE:**
+The unicode of each icon is generated using [FACG](https://github.com/shifarshifz/FACG) (FontAwesomeCheatSheet Grabber). It is a small console application written in Java to convert the [Official cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/) to Android Resources.
 
 
 ### Coming soon
