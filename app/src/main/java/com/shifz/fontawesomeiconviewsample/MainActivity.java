@@ -18,11 +18,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FAIconView faIconView = (FAIconView) findViewById(R.id.fivIcon);
-        faIconView.setIcon(FAIcon.FA_ADJUST);
-        faIconView.setIconColor(Color.RED);
-        faIconView.setIconSize(250f);
-
+        FAIconView faIconView = (FAIconView) findViewById(R.id.fivIconJava);
+        faIconView.setIcon(FAIcon.FA_ANDROID); //Setting icon
+        faIconView.setIconColor(Color.GREEN); //Setting icon color
+        faIconView.setIconSize(100f); //Setting icon size
     }
 
     @Override

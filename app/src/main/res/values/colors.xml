@@ -2,4 +2,5 @@
 <resources>
     <color name="red">#1daad1</color>
     <color name="batman_black">#666</color>
+    <color name="sky_blue">#ff0099cc</color>
 </resources>

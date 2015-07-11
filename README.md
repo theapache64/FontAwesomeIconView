@@ -1,6 +1,6 @@
 # FontAwesomeIconView
 
-FontAwesomeIconView is an Android widget that can be used to show FontAwesomeIcons in your Android application.
+FontAwesomeIconView is an Android widget that can be used to show FontAwesomeIcons in your Android application. (based on Font Awesome v4.3.0)
 
 ### How to use?
 
@@ -27,7 +27,7 @@ Just add the below dependency in your application module's build.gradle file.
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         custom:iconColor="@color/batman_black" // Setting icon color
-        custom:iconName="@string/fa_adjust" // Setting icon
+        custom:iconName="@string/fa_github" // Setting icon
         custom:iconSize="100sp" //Setting icon size
         />
 </...>
@@ -37,10 +37,36 @@ Just add the below dependency in your application module's build.gradle file.
 **Java**
 ```java
     FAIconView faIconView = (FAIconView) findViewById(R.id.fivIcon);
-    faIconView.setIcon(FAIcon.FA_ADJUST);
+    faIconView.setIcon(FAIcon.FA_GITHUB);
     faIconView.setIconColor(Color.RED);
     faIconView.setIconSize(250f);
 ```
+
+### Sample
+
+```xml
+<... 
+	...
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.shifz.fontawesomeiconview.FAIconView
+        android:id="@+id/fivIcon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true" 
+        custom:iconColor="@color/sky_blue" //Setting skyblue color
+        custom:iconName="@string/fa_github" //Setting icon
+        custom:iconSize="150sp" //Icon size
+        />
+
+</...>
+```
+The above xml can produce the below output
+
+![Sample screenshot](https://github.com/shifarshifz/FontAwesomeIconView/blob/master/sample.png?raw=true)
+
 
 
 ### Coming soon
@@ -72,3 +98,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+

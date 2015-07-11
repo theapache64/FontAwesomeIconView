@@ -2,15 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
     tools:context=".MainActivity">
 
+    <!-- XML -->
     <com.shifz.fontawesomeiconview.FAIconView
-        android:id="@+id/fivIcon"
+        android:id="@+id/fivIconXML"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        custom:iconColor="@color/batman_black"
-        android:layout_centerInParent="true"
-        custom:iconName="@string/fa_adjust"
-        custom:iconSize="100sp"/>
+        custom:iconColor="@color/sky_blue"
+        custom:iconName="@string/fa_github"
+        custom:iconSize="150sp"/>
+
+    <!-- Manipulated through Java -->
+    <com.shifz.fontawesomeiconview.FAIconView
+        android:id="@+id/fivIconJava"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        />
 
 </RelativeLayout>
