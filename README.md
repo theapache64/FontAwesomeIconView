@@ -11,7 +11,7 @@ just add the below dependency in your application module's build.gradle file
 
 ### Usage
 
-XML
+** XML **
 
 ```xml
 <... 
@@ -32,7 +32,7 @@ XML
 
 </...>
 ```
-Java
+** Java **
 ```java
     FAIconView faIconView = (FAIconView) findViewById(R.id.fivIcon);
     faIconView.setIcon(FAIcon.FA_ADJUST);
@@ -42,11 +42,10 @@ Java
 
 
 ### Coming soon ###
-* Maven Center support
+* Maven Central support
 
 
 Licence
--------
 
 ***
 The MIT License (MIT)
