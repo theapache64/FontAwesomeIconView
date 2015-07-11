@@ -11,7 +11,7 @@ just add the below dependency in your application module's build.gradle file
 
 ### Usage
 
-** XML **
+**XML**
 
 ```xml
 <... 
@@ -32,7 +32,7 @@ just add the below dependency in your application module's build.gradle file
 
 </...>
 ```
-** Java **
+**Java**
 ```java
     FAIconView faIconView = (FAIconView) findViewById(R.id.fivIcon);
     faIconView.setIcon(FAIcon.FA_ADJUST);
